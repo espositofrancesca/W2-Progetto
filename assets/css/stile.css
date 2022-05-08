@@ -1,0 +1,514 @@
+/* IMPOSTAZIONI GENERALI */
+html {
+    font-size: 68%;
+    font-weight: 300;
+}
+
+body {
+    color: #000;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+/* HEADER */
+header {
+    background-color: white;
+    box-shadow: 0px 10px 30px #d3d3d3;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    z-index: 1;
+}
+
+input#menu_btn {
+    display: none;
+}
+
+input#menu_btn:checked~nav {
+    height: 180px;
+}
+
+
+header nav ul {
+    list-style: none;
+}
+
+header nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #e42424;
+    font-size: 1.8rem;
+
+}
+
+header nav ul .cta_btn {
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 10px;
+}
+
+
+/* MAIN */
+
+main {
+    text-align: center;
+}
+
+.box_1 i,
+.box_2 i,
+.icon,
+.lni {
+    font-size: 3rem;
+    color: #e42424;
+}
+
+.box_1 i {
+    font-size: 4rem;
+    color: #e42424;
+}
+
+.cta {
+    background-color: #00000062;
+    background-image: url(../images/banner.jpg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    padding: 45px 30px 15px 30px;
+    text-align: left;
+    color: white;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 1;
+
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+hr {
+    visibility: hidden;
+}
+
+.chi_siamo,
+.form {
+    padding: 40px 20px 15px 20px;
+    margin: 0 20px;
+}
+
+.cta_btn {
+    color: white;
+    text-decoration: none;
+    background: rgb(108, 193, 226);
+    background: linear-gradient(90deg, rgba(108, 193, 226, 1) 7%, rgba(57, 47, 122, 1) 100%);
+    padding: 10px 15px;
+    display: inline-block;
+    font-size: 1.9rem;
+    border: none;
+    margin: 20px;
+
+
+}
+
+.pulse {
+    animation: shadow 2s linear infinite;
+}
+
+@keyframes shadow {
+    0% {
+        box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.8);
+    }
+
+    70% {
+        box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    }
+}
+
+h2 {
+    font-size: 3.5rem;
+    line-height: 1;
+    margin-bottom: 0.5em;
+}
+
+h3,
+strong {
+    font-size: 2.4rem;
+}
+
+strong {
+    display: block;
+    line-height: 1.2em;
+}
+
+.box_1 {
+    text-align: center;
+    padding: 30px;
+}
+
+.box_1 i {
+    display: inline-block;
+    position: relative;
+    top: 10px
+}
+
+.box_1 div {
+    margin: 20px 0;
+}
+
+.scrivici {
+    background-color: #0c0633;
+    color: white;
+    padding: 60px 40px;
+}
+
+.box_2 {
+    margin: 10px 30px 50px 30px;
+    text-align: center;
+}
+
+img:not(#logo_img) {
+    width: 100%;
+    margin: 30px 0;
+}
+
+.box_2 div {
+    margin: 10px;
+}
+
+.box_2 h3 {
+    display: inline;
+}
+
+.table h3 {
+    margin-top: 50px;
+}
+
+.job {
+    margin: 40px 10px;
+}
+
+#name,
+#email,
+#message {
+    width: 100%;
+    padding: 5px;
+}
+
+#name,
+#email {
+    font-style: italic;
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+#message {
+    height: 60px;
+}
+
+.main_container {
+    margin-top: 50px
+}
+
+/* TABELLA */
+table {
+
+    width: 90%;
+    margin: 0 auto 30px auto;
+    background-color: #d2dce7;
+    text-align: left;
+    padding: 20px;
+}
+
+.bgc_white {
+    background-color: white;
+}
+
+tr {
+    height: 4rem;
+}
+
+th {
+    font-weight: 500;
+    width: 45%;
+    padding-left: 10px;
+}
+
+td {
+    padding-right: 10px;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(238, 238, 238);
+    padding: 30px 40px;
+}
+
+footer p,
+.icon {
+    margin: 20px 0;
+}
+
+footer h4 {
+    font-size: 2rem;
+    line-height: 20px;
+    margin: 20px 0 20px 0;
+    font-weight: 300;
+}
+
+.email,
+.btn {
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+footer form {
+    margin: 30px 0;
+}
+
+footer p {
+    margin: 10px 0 0 0;
+}
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width:768px) {
+    header nav {
+        height: 0;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        transition: height 1s ease-out;
+    }
+
+    #tablet {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        line-height: 1.1;
+    }
+
+    /* .main_container {
+        margin-top: 30px
+    } */
+
+    /* HEADER */
+
+    #menu_mobile {
+        display: none;
+    }
+
+    header nav ul li {
+        display: inline-block;
+        margin: 0 0.8em 0 1em;
+    }
+
+    header nav ul li a {
+        text-decoration: none;
+        color: rgb(97, 97, 97);
+        text-transform: capitalize;
+    }
+
+    header nav ul li a:hover {
+        color: #e42424;
+    }
+
+    /* MAIN */
+
+    .cta {
+        height: 38vh;
+        padding: 100px 120px 30px;
+    }
+
+    .card {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .card div,
+    #flex_2 div {
+        flex: 1;
+        padding: 10px;
+    }
+
+    .card div p {
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    .box_1 i {
+        position: relative;
+        top: 5px
+    }
+
+    .box_2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 15px;
+    }
+
+    .box_2 #flex_1 img {
+        margin: 0;
+    }
+
+    .emoji {
+        text-align: left;
+        line-height: 4rem;
+    }
+
+
+    .flex {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+    .flex_chi_siamo {
+        display: flex;
+    }
+
+    .flex_chi_siamo div {
+        margin: 0 10px 0 0;
+    }
+
+    .flex_chi_siamo div img {
+        height: 245px;
+    }
+
+    .flex .reference {
+        flex: 2;
+    }
+
+    .flex .form {
+        flex: 140px;
+    }
+
+    /* TABELLA */
+    #mobile {
+        display: none;
+    }
+
+    #tablet {
+        width: 90%;
+    }
+
+    #tablet .base {
+        width: 20%;
+    }
+
+    #tablet thead {
+        background-color: #5F82A3;
+        color: white;
+    }
+
+    #tablet thead tr th,
+    #tablet tbody tr td {
+        padding: 10px;
+    }
+
+    #tablet tbody tr:nth-child(even) {
+        background-color: white;
+    }
+
+    #tablet tbody,
+    #tablet thead {
+        text-align: center;
+    }
+
+    /* FOOTER */
+
+
+    #flex_2 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer {
+        font-weight: 300;
+    }
+
+    footer>p {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        line-height: 1.2;
+    }
+
+    header {
+        padding: 20px 190px;
+    }
+
+   
+
+    .cta {
+        padding: 60px 245px 0px;
+        height: 30vh;
+    }
+
+    .box_1,
+    .flex {
+        width: 80%;
+        margin: auto;
+    }
+
+    .chi_siamo {
+        width: 70%;
+        margin: auto;
+    }
+
+   
+
+    #tablet {
+        width: 60%;
+    }
+
+    footer #flex_2 {
+        width: 80%;
+        margin: auto;
+    }
+
+
+}
