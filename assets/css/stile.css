@@ -30,7 +30,7 @@ input#menu_btn {
 }
 
 input#menu_btn:checked~nav {
-    height: 180px;
+    height: 200px;
 }
 
 
@@ -284,8 +284,6 @@ footer h4 {
     margin: 0;
     box-sizing: border-box;
 }
-
-
 
 
 footer form {
