@@ -218,6 +218,7 @@ img:not(#logo_img) {
     font-style: italic;
     margin-bottom: 20px;
     height: 30px;
+    border: 1px solid lightgray;
 }
 
 #message {
@@ -322,10 +323,6 @@ footer p {
         line-height: 1.1;
     }
 
-    /* .main_container {
-        margin-top: 30px
-    } */
-
     /* HEADER */
 
     #menu_mobile {
@@ -406,10 +403,6 @@ footer p {
         margin: 0 10px 0 0;
     }
 
-    .flex_chi_siamo div img {
-        height: 245px;
-    }
-
     .flex .reference {
         flex: 2;
     }
@@ -481,11 +474,10 @@ footer p {
         padding: 20px 190px;
     }
 
-   
 
     .cta {
         padding: 60px 245px 0px;
-        height: 30vh;
+    
     }
 
     .box_1,
@@ -498,8 +490,14 @@ footer p {
         width: 70%;
         margin: auto;
     }
-
-   
+    .flex_chi_siamo{
+        justify-content: center;
+        width: 100%;
+    }
+   .immagine{
+       width: 40%;
+       height: 40%;
+   }
 
     #tablet {
         width: 60%;
