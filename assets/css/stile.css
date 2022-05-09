@@ -130,6 +130,7 @@ hr {
 
 
 }
+
 /* ----------- ANIMAZIONE "CHIEDI INFO" ----------- */
 .pulse {
     animation: shadow 2s linear infinite;
@@ -219,11 +220,17 @@ img:not(#logo_img) {
 }
 
 #name,
+#email,
+#message {
+    border: 1px solid lightgray;
+}
+
+#name,
 #email {
     font-style: italic;
     margin-bottom: 20px;
     height: 30px;
-    border: 1px solid lightgray;
+
 }
 
 #message {
@@ -479,7 +486,7 @@ footer p {
 
     .cta {
         padding: 60px 245px 0px;
-    
+
     }
 
     .box_1,
@@ -492,14 +499,16 @@ footer p {
         width: 70%;
         margin: auto;
     }
-    .flex_chi_siamo{
+
+    .flex_chi_siamo {
         justify-content: center;
         width: 100%;
     }
-   .immagine{
-       width: 40%;
-       height: 40%;
-   }
+
+    .immagine {
+        width: 40%;
+        height: 40%;
+    }
 
     #tablet {
         width: 60%;
